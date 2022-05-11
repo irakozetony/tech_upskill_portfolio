@@ -10,5 +10,17 @@ toggleMenu.addEventListener('click', () => {
     console.log(navLinks.classList)
 })
 
-const skill = document.getElementsByClassName("about-skills-skill")[0]
-skill
+const skills = document.querySelectorAll(".about-skills-skill")
+const skillIcons = document.querySelectorAll(".skill-icon")
+
+for (let i = 0; i <skills.length; i++){
+    skills[i].addEventListener("mouseenter", () => {
+        console.log("mouseenter")
+        skills[i].classList.add("hovered")
+        skillIcons[i].classList.add("white-icon")
+    })
+    skills[i].addEventListener("mouseleave", () => {
+        skills[i].classList.remove("hovered")
+        skillIcons[i].classList.remove("white-icon")
+    })
+}
