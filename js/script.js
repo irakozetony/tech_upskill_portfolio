@@ -46,6 +46,7 @@ themeDiv.addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", () => {
     theme = localStorage.getItem("theme")
     if (theme){
+        themeIcon.className = "fa-solid fa-sun"
         body.classList.add("dark-theme")
     }
 })

@@ -81,6 +81,14 @@ header .logo{
 /* end header navbar */
 
 /* header hero content */
+@keyframes animateBackground{
+    from{
+        background-position-y: 30px
+    }
+    to{
+        background-position-y: 0px
+    }
+}
 .hero-content-section{
     background-image: url("../img/hero-bg.png");
     height: 70vh;
@@ -88,6 +96,7 @@ header .logo{
     background-position: right center;
     background-position-y: 50px;
     background-size: 650px;
+    animation: animateBackground 2s cubic-bezier(.46,.03,.52,.96) infinite alternate;
 }
 .hero-content-text{
     margin-top: 200px;
@@ -592,8 +601,35 @@ a.submit:hover{
         margin-bottom: 20px;
     }
 
-    
-
+    .contact-page-details{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-page-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-page-info .info{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .contact-page-info .info:last-child{
+        margin-bottom: 0;
+    }
+    .contact-page-form{
+        margin-top: 50px;
+    }
+    .contact-page-form form input{
+        width: 100%;
+    }
+    .contact-page-form form textarea{
+        width: 100%;
+    }
+    a.submit{
+        width: 100%;
+        text-align: center;
+    }
 }
 @media (max-width: 830px){
 
