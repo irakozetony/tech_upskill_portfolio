@@ -154,7 +154,6 @@ header .logo{
 .hero-content-social-links li a i{
     font-size: 3rem;
 }
-
 /* end header hero content */
 
 /* about-skills section */
@@ -182,8 +181,6 @@ header .logo{
     box-shadow: 1px 1px 4px var(--black-shadow-color);
     transition: .5s;
 }
-
-
 .about-skills-skill.hovered{
     background-color: var(--secondary-color);
     color: var(--highlight-color);   
@@ -304,7 +301,6 @@ header .logo{
 /* end about-techstack section */
 
 /* portfolio-projects section */
-
 .portfolio-projects-section{
     margin-top:100px;
 }
@@ -369,7 +365,6 @@ header .logo{
 /* end portfolio-projects-section */
 
 /* contact-section */
-
 .contact-section {
     margin-top: 100px;
     background-color: var(--secondary-color);
@@ -416,7 +411,6 @@ a.contact-button:hover{
 /* end contact-section */
 
 /* footer-section */
-
 .footer-section{
     background-color: var(--secondary-color);
     margin-top: 100px;
@@ -460,7 +454,6 @@ footer nav ul li{
 .contact-page-cta p{
     color: var(--gray-color)
 }
-
 .contact-page-details{
     display: flex;
     justify-content:space-between;
@@ -494,7 +487,6 @@ footer nav ul li{
     color: var(--gray-color);
     margin-top: 6px;
 }
-
 .contact-page-form form input{
     width: 230px;
     margin-bottom: 20px;
@@ -502,6 +494,7 @@ footer nav ul li{
     border-radius: 8px;
     background:none;
     border: 1px solid var(--input-border-color);
+    color: var(--text-color);
 }
 .contact-page-form form input::placeholder{
     color: var(--input-color);
@@ -517,24 +510,24 @@ footer nav ul li{
     border-radius: 8px;
     width: 94%;
     min-height: 100px;
+    color: var(--text-color);
 }
 .contact-page-form form textarea::placeholder{
     color: var(--input-color)
 }
-a.submit{
+.contact-page-form form input.submit{
     display: inline-block;
     margin-top: 20px;
-    border: 4px solid var(--secondary-color);
     padding: 16px;
     border-radius: 8px;
     text-decoration: none;
-    color: var(--secondary-color);
     text-transform: uppercase;
     font-weight: 900;
     transition: .5s;
-
+    cursor: pointer;
+    width: 100%
 }
-a.submit:hover{
+.contact-page-form form input.submit:hover{
     background: var(--secondary-color);
     color: var(--highlight-color);
 }
