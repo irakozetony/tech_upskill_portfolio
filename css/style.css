@@ -12,13 +12,13 @@
 }
 .dark-theme{
     --background-color: #111111;
-    --border-color: #000000;
+    --border-color: #363636;
     --secondary-color: #1958C2;
     --secondary-highlight-color: #02235e;
     --highlight-color: #000000;
     --text-color: #ffffff;
     --gray-color: #bbbbbb;
-    --black-shadow-color: #00000033;
+    --black-shadow-color: #25252533;
     --input-border-color: #6d6d6d;
     --input-color: rgb(194, 194, 194);
     --theme-icon-color: #ffa701;
