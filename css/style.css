@@ -14,7 +14,7 @@
     --background-color: #0f172a;
     --border-color: #1c2a4d;
     --secondary-color: #1958C2;
-    --secondary-highlight-color: #02235e;
+    --secondary-highlight-color: #ffffff;
     --highlight-color: #0c111f;
     --text-color: #ffffff;
     --gray-color: #bbbbbb;
@@ -153,6 +153,10 @@ header .logo{
 }
 .hero-content-social-links li a i{
     font-size: 3rem;
+    transition: 0.5s;
+}
+.hero-content-social-links li a i:hover{
+    color: var(--secondary-highlight-color);
 }
 /* end header hero content */
 
