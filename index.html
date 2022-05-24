@@ -1,216 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yves Portfolio</title>
+        <script
+            src="https://kit.fontawesome.com/d04a2cf651.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            rel="icon"
+            href="./img/logo-white-theme.ico"
+            type="image/x-icon"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yves Portfolio</title>
-    <script src="https://kit.fontawesome.com/d04a2cf651.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./img/logo-white-theme.ico" type="image/x-icon">
-</head>
-
-<body>
-    <script>0</script>
-    <section class="hero-header-section" id="home-section">
-
-        <header class="container">
-            <a href="./index.html"><img class="logo" src="./img/logo-white-theme.png" alt="Logo" /></a>
-            <a href="#" class="toggle-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <nav class="nav-links">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#about-section">About</a></li>
-                    <li><a href="#portfolio-section">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    </section>
-
-    <section class="hero-content-section container">
-        <div class="hero-content-text">
-            <h3>Hello, I'm Yves</h3>
-            <h1>Web Developer</h1>
-            <p>
-                Hi. I'm a web developer and a ui designer. Feel free to reach out to me for any web development projects
-                that require HTML, CSS & JavaScript or Django.
-            </p>
-        </div>
-        <a href="./data/cv.pdf" id="download-cv-button" download>Download CV</a>
-        <ul class="hero-content-social-links">
-            <li><a href="https://twitter.com/kiytony" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
-            <li><a href="https://github.com/irakozetony" target="_blank"><i class="fa-brands fa-github-square"></i></a></li>
-            <li><a href="https://linkedin.com/in/irakozeyves" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-        </ul>
-    </section>
-    <div class="white-bg"></div>
-    <section class="about-skills-section container" id="about-section">
-        <div class="about-skills-skill">
-            <div class="about-skills-skill-icon">
-                <i class="fa-solid fa-pen-nib skill-icon"></i>
-            </div>
-            <h2 class="about-skills-skill-title">
-                UI Design
-            </h2>
-            <p class="about-skills-skill-description">
-                I create beautiful User Interfaces using Figma, Adobe XD and Adobe Photoshop
-            </p>
-        </div>
-        <div class="about-skills-skill">
-            <div class="about-skills-skill-icon">
-                <i class="fa-solid fa-code skill-icon"></i>
-            </div>
-            <h2 class="about-skills-skill-title">
-                Web Development
-            </h2>
-            <p class="about-skills-skill-description">
-                I work on both front-end and back-end with different technologies to create great web applications
-            </p>
-        </div>
-        <div class="about-skills-skill">
-            <div class="about-skills-skill-icon">
-                <i class="fa-solid fa-shield-halved skill-icon"></i>
-            </div>
-            <h2 class="about-skills-skill-title">
-                Cyber Security
-            </h2>
-            <p class="about-skills-skill-description">
-                I use different techniques and tools to keep networks and systems secure and safe
-            </p>
-        </div>
-    </section>
-    <section class="about-experience-section container">
-        <div class="about-experience-highlight">
-            <h1>1</h1>
-            <h3>Year experience</h3>
-        </div>
-        <div class="about-experience">
-            <p class="about-experience-count">
-                9
-            </p>
-            <p class="about-experience-count-description">
-                Clients
-            </p>
-        </div>
-        <div class="about-experience">
-            <p class="about-experience-count">
-                13
-            </p>
-            <p class="about-experience-count-description">
-                Projects
-            </p>
-        </div>
-        <div class="about-experience">
-            <p class="about-experience-count">
-                20
-            </p>
-            <p class="about-experience-count-description">
-                Certificates
-            </p>
-        </div>
-        <div class="about-experience">
-            <p class="about-experience-count">
-                7
-            </p>
-            <p class="about-experience-count-description">
-                Awards
-            </p>
-        </div>
-    </section>
-
-    <section class="about-techstack-section container">
-        <h2 class="section-title">Tech Stacks</h2>
-        <div class="about-techstack-stacks">
-            <div class="about-techstack-stack">
-                <i class="fa-brands fa-html5"></i>
-                <p class="about-techstack-stack-title">
-                    HTML
-                </p>
-            </div>
-            <div class="about-techstack-stack">
-                <i class="fa-brands fa-css3-alt"></i>
-                <p class="about-techstack-stack-title">
-                    CSS
-                </p>
-            </div>
-            <div class="about-techstack-stack">
-                <i class="fa-brands fa-js-square"></i>
-                <p class="about-techstack-stack-title">
-                    JAVASCRIPT
-                </p>
-            </div>
-            <div class="about-techstack-stack">
-                <i class="fa-brands fa-python"></i>
-                <p class="about-techstack-stack-title">
-                    Python
-                </p>
-            </div>
-            <div class="about-techstack-stack">
-                <img src="./img/icons8-django.svg" alt="Django Icon" class="about-techstack-stack-icon">
-                <p class="about-techstack-stack-title">
-                    Django
-                </p>
-            </div>
-            <a href="#" class="view-more">
-                <i class="fa-solid fa-angle-right"></i>
-            </a>
-        </div>
-    </section>
-
-    <section class="portfolio-projects-section container" id="portfolio-section">
-        <div class="portfolio-projects-header">
-            <h2 class="section-title">Projects</h2>
-            <a href="#">View All</a>
-        </div>
-        <div class="portfolio-projects">
-            <div class="portfolio-project">
-                <div class="portfolio-project-thumbnail-bg">
-                    <div class="portfolio-project-thumbnail">
-                        <img src="./img/phil_and_son.jpg" alt="Phil and Son" class="portfolio-project-thumbnail-image">
-                    </div>
-                </div>
-                <h4 class="portfolio-project-title">Phil and Son</h4>
-                <a href="#" class="know-more">Know More <span class="know-more-icon"><i
-                            class="fa-solid fa-angle-right"></i></span></a>
-            </div>
-            <div class="portfolio-project">
-                <div class="portfolio-project-thumbnail-bg">
-                    <div class="portfolio-project-thumbnail">
-                        <img src="./img/favves.jpg" alt="Favves" class="portfolio-project-thumbnail-image">
-                    </div>
-                </div>
-                <h4 class="portfolio-project-title">Favves</h4>
-                <a href="#" class="know-more">Know More <span class="know-more-icon"><i
-                            class="fa-solid fa-angle-right"></i></span></a>
-            </div>
-        </div>
-    </section>
-    <section class="contact-section container" id="contact-me-section">
-        <div class="contact-text">
-            <h3 class="contact-text-title">
-                Let's work together on your next project
-            </h3>
-            <p class="contact-text-cta">
-                Feel free to reach out to me for any projects that are suitable for my skill sets.
-            </p>
-        </div>
-        <a href="./contact.html" id="get-in-touch" class="contact-button">Get in touch</a>
-    </section>
-    <section class="footer-section">
-        <footer class="container">
-            <img class="logo" src="./img/logo-dark-theme.png" alt="Logo" />
-
-            <div class="footer-nav">
-                <nav>
+    <body>
+        <script>
+            0;
+        </script>
+        <section class="hero-header-section" id="home-section">
+            <header class="container">
+                <a href="./index.html"
+                    ><img
+                        class="logo"
+                        src="./img/logo-white-theme.png"
+                        alt="Logo"
+                /></a>
+                <a href="#" class="toggle-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <nav class="nav-links">
                     <ul>
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="#about-section">About</a></li>
@@ -218,19 +48,260 @@
                         <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
+            </header>
+        </section>
+
+        <section class="hero-content-section container">
+            <div class="hero-content-text">
+                <h3>Hello, I'm Yves</h3>
+                <h1>Web Developer</h1>
+                <p>
+                    Hi. I'm a web developer and a ui designer. Feel free to
+                    reach out to me for any web development projects that
+                    require HTML, CSS & JavaScript or Django.
+                </p>
             </div>
-
-            <div class="copyright">
-                <p class="copyright-text">Copyright &copy;2022. Irakoze Yves. All rights reserved</p>
+            <a href="./data/cv.pdf" id="download-cv-button" download
+                >Download CV</a
+            >
+            <ul class="hero-content-social-links">
+                <li>
+                    <a href="https://twitter.com/kiytony" target="_blank"
+                        ><i class="fa-brands fa-twitter-square"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://github.com/irakozetony" target="_blank"
+                        ><i class="fa-brands fa-github-square"></i
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="https://linkedin.com/in/irakozeyves"
+                        target="_blank"
+                        ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                </li>
+            </ul>
+        </section>
+        <div class="white-bg"></div>
+        <section class="about-skills-section container" id="about-section">
+            <div class="about-skills-skill">
+                <div class="about-skills-skill-icon">
+                    <i class="fa-solid fa-pen-nib skill-icon"></i>
+                </div>
+                <h2 class="about-skills-skill-title">UI Design</h2>
+                <p class="about-skills-skill-description">
+                    I create beautiful User Interfaces using Figma, Adobe XD and
+                    Adobe Photoshop
+                </p>
             </div>
-        </footer>
-    </section>
+            <div class="about-skills-skill">
+                <div class="about-skills-skill-icon">
+                    <i class="fa-solid fa-code skill-icon"></i>
+                </div>
+                <h2 class="about-skills-skill-title">Web Development</h2>
+                <p class="about-skills-skill-description">
+                    I work on both front-end and back-end with different
+                    technologies to create great web applications
+                </p>
+            </div>
+            <div class="about-skills-skill">
+                <div class="about-skills-skill-icon">
+                    <i class="fa-solid fa-shield-halved skill-icon"></i>
+                </div>
+                <h2 class="about-skills-skill-title">Cyber Security</h2>
+                <p class="about-skills-skill-description">
+                    I use different techniques and tools to keep networks and
+                    systems secure and safe
+                </p>
+            </div>
+        </section>
+        <section class="about-experience-section container">
+            <div class="about-experience-highlight">
+                <h1>1</h1>
+                <h3>Year experience</h3>
+            </div>
+            <div class="about-experience">
+                <p class="about-experience-count">9</p>
+                <p class="about-experience-count-description">Clients</p>
+            </div>
+            <div class="about-experience">
+                <p class="about-experience-count">13</p>
+                <p class="about-experience-count-description">Projects</p>
+            </div>
+            <div class="about-experience">
+                <p class="about-experience-count">20</p>
+                <p class="about-experience-count-description">Certificates</p>
+            </div>
+            <div class="about-experience">
+                <p class="about-experience-count">7</p>
+                <p class="about-experience-count-description">Awards</p>
+            </div>
+        </section>
 
-    <div class="theme-icon">
-        <i class="fa-solid fa-moon" id="change-theme-icon"></i>
-    </div>
+        <section class="about-techstack-section container">
+            <h2 class="section-title">Tech Stacks</h2>
+            <div class="about-techstack-stacks">
+                <div class="about-techstack-stack">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="about-techstack-stack-title">HTML</p>
+                </div>
+                <div class="about-techstack-stack">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="about-techstack-stack-title">CSS</p>
+                </div>
+                <div class="about-techstack-stack">
+                    <i class="fa-brands fa-js-square"></i>
+                    <p class="about-techstack-stack-title">JAVASCRIPT</p>
+                </div>
+                <div class="about-techstack-stack">
+                    <i class="fa-brands fa-python"></i>
+                    <p class="about-techstack-stack-title">Python</p>
+                </div>
+                <div class="about-techstack-stack">
+                    <img
+                        src="./img/icons8-django.svg"
+                        alt="Django Icon"
+                        class="about-techstack-stack-icon"
+                    />
+                    <p class="about-techstack-stack-title">Django</p>
+                </div>
+                <a href="#" class="view-more">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </section>
 
-    <script src="./js/script.js"></script>
-</body>
+        <section
+            class="portfolio-projects-section container"
+            id="portfolio-section"
+        >
+            <div class="portfolio-projects-header">
+                <h2 class="section-title">Projects</h2>
+                <a href="#">View All</a>
+            </div>
+            <div class="portfolio-projects">
+                <div class="portfolio-project">
+                    <div class="portfolio-project-thumbnail-bg">
+                        <div class="portfolio-project-thumbnail">
+                            <img
+                                src="./img/demo-1.png"
+                                alt="Demo 1"
+                                class="portfolio-project-thumbnail-image"
+                            />
+                        </div>
+                    </div>
+                    <h4 class="portfolio-project-title">Demo 1</h4>
+                    <a
+                        href="https://demoproject-one.netlify.app/"
+                        target="_blank"
+                        class="know-more"
+                        >Know More
+                        <span class="know-more-icon"
+                            ><i class="fa-solid fa-angle-right"></i></span
+                    ></a>
+                </div>
+                <div class="portfolio-project">
+                    <div class="portfolio-project-thumbnail-bg">
+                        <div class="portfolio-project-thumbnail">
+                            <img
+                                src="./img/demo-2.png"
+                                alt="Demo 2"
+                                class="portfolio-project-thumbnail-image"
+                            />
+                        </div>
+                    </div>
+                    <h4 class="portfolio-project-title">Demo 2</h4>
+                    <a
+                        href="https://demoproject-two.netlify.app/"
+                        target="_blank"
+                        class="know-more"
+                        >Know More<span class="know-more-icon"
+                            ><i class="fa-solid fa-angle-right"></i></span
+                    ></a>
+                </div>
+                <div class="portfolio-project">
+                    <div class="portfolio-project-thumbnail-bg">
+                        <div class="portfolio-project-thumbnail">
+                            <img
+                                src="./img/demo-3.png"
+                                alt="Demo 3"
+                                class="portfolio-project-thumbnail-image"
+                            />
+                        </div>
+                    </div>
+                    <h4 class="portfolio-project-title">Demo 3</h4>
+                    <a
+                        href="https://demoproject-three.netlify.app/"
+                        target="_blank"
+                        class="know-more"
+                        >Know More<span class="know-more-icon"
+                            ><i class="fa-solid fa-angle-right"></i></span
+                    ></a>
+                </div>
+                <div class="portfolio-project">
+                    <div class="portfolio-project-thumbnail-bg">
+                        <div class="portfolio-project-thumbnail">
+                            <img
+                                src="./img/farmer-ecommerce.png"
+                                alt="Favves"
+                                class="portfolio-project-thumbnail-image"
+                            />
+                        </div>
+                    </div>
+                    <h4 class="portfolio-project-title">Farmer e-commerce</h4>
+                    <a
+                        href="http://farmer-e-commerce.herokuapp.com/"
+                        target="_blank"
+                        class="know-more"
+                        >Know More<span class="know-more-icon"
+                            ><i class="fa-solid fa-angle-right"></i></span
+                    ></a>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section container" id="contact-me-section">
+            <div class="contact-text">
+                <h3 class="contact-text-title">
+                    Let's work together on your next project
+                </h3>
+                <p class="contact-text-cta">
+                    Feel free to reach out to me for any projects that are
+                    suitable for my skill sets.
+                </p>
+            </div>
+            <a href="./contact.html" id="get-in-touch" class="contact-button"
+                >Get in touch</a
+            >
+        </section>
+        <section class="footer-section">
+            <footer class="container">
+                <img class="logo" src="./img/logo-dark-theme.png" alt="Logo" />
 
+                <div class="footer-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#about-section">About</a></li>
+                            <li><a href="#portfolio-section">Portfolio</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="copyright">
+                    <p class="copyright-text">
+                        Copyright &copy;2022. Irakoze Yves. All rights reserved
+                    </p>
+                </div>
+            </footer>
+        </section>
+
+        <div class="theme-icon">
+            <i class="fa-solid fa-moon" id="change-theme-icon"></i>
+        </div>
+
+        <script src="./js/script.js"></script>
+    </body>
 </html>

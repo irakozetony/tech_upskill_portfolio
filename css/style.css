@@ -332,15 +332,18 @@ header .logo{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio-project{
+    margin-bottom: 30px;
 }
 .portfolio-project-thumbnail-bg{
     background-color: var(--highlight-color);
-    padding: 70px;
+    padding: 40px;
     border-radius: 8px;
     border: 1px solid var(--border-color);
 }
 .portfolio-project-thumbnail{
-    height: 352px;
     overflow: hidden;
     box-shadow: -1px 1px 10px var(--black-shadow-color);
 }
