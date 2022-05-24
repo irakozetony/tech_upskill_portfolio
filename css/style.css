@@ -395,7 +395,7 @@ header .logo{
     align-self: center;
 }
 a.contact-button{
-    color: var(--secondary-color);
+    color: var(--text-color);
     background-color: var(--background-color);
     text-decoration: none;
     text-transform: uppercase;
